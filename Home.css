@@ -1,0 +1,60 @@
+body{
+   background-image: url('https://images.unsplash.com/photo-1609102026400-3c0ca378e4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGxpdmUlMjBjb25jZXJ0fGVufDB8fDB8fHww&w=1000&q=80');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.text {
+    color: rgb(255, 187, 187);
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    font-size: 80px;
+    font-family: poppins; 
+ }
+ 
+ .fire {
+ 
+    display: block;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQia-q_tZYR5sZhI4X1JY0grLShO7jO3AQCOQ&usqp=CAU);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: fire 1.2s linear infinite;
+    -webkit-backface-visibility: hidden;
+ }
+ 
+ @keyframes fire {
+    0% {
+       background-position: 0% -50%;
+    }
+ 
+    0% {
+       background-position: 100% -50%;
+    }
+ 
+ }
+ 
+ .hello {
+    color: white;
+    display: flex;
+    margin-top: 2rem;
+    font-size: 18px;
+    padding-right: 59rem;
+ }
+ 
+ .hello:hover {
+    color: aqua;
+    cursor: pointer;
+ }
+ 
+ 
+ .come {
+    font-size: 26px;
+    font-family: poppins;
+    color: white;
+    text-align: center;
+    margin-top: 18%;
+    position: relative;
+    margin-left: 5%;
+ }
+
+ 
