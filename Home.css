@@ -1,13 +1,21 @@
 body{
-   background-image: url('https://images.unsplash.com/photo-1609102026400-3c0ca378e4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGxpdmUlMjBjb25jZXJ0fGVufDB8fDB8fHww&w=1000&q=80');
-   background-size: cover;
-   background-repeat: no-repeat;
+   background-color: rgb(0, 26, 57);
+   box-sizing: border-box;
+   margin: 0%;
+   padding: 0%;
+}
+
+.home-container{
+  /* background-size:cover; */
+  /* background-repeat: no-repeat; */
+  height: 90vh;
+  width: 100%;
 }
 .text {
     color: rgb(255, 187, 187);
     position: absolute;
-    top: 30%;
-    left: 22%;
+    top: 40%;
+    left: 19%;
     font-size: 80px;
     font-family: poppins; 
  }
@@ -48,13 +56,13 @@ body{
  
  
  .come {
-    font-size: 26px;
+    font-size: 36px;
     font-family: poppins;
     color: white;
     text-align: center;
-    margin-top: 18%;
-    position: relative;
-    margin-left: 5%;
+    top: 55%;
+    left: 10%;
+    position: absolute;
  }
 
  
