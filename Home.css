@@ -131,3 +131,40 @@ body{
      left: 10%;
      position: absolute;
   }
+.c{
+
+   color: red;
+   font-family: 'poppins';
+   margin-top: 3rem;
+   text-align: center;
+}
+
+.c:hover{
+
+   color:black;
+   cursor: pointer;
+}
+
+.pre{
+   margin-top: 20px;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 900;
+   font-family: "poppins";
+   background-image: url('https://thumbs.dreamstime.com/b/silhouettes-concert-crowd-front-bright-stage-lights-confetti-colourful-background-high-lighted-places-people-holding-83284529.jpg');
+   background-size: cover;
+   color: transparent;
+   -webkit-background-clip: text;
+}
+
+.carousel-inner{
+   max-height: 75vh;  /* change this to whatever you want */
+   width: 100%;
+   }
+.carousel-item{
+      
+   max-height: 75vh;
+}
+.d-block w-100{
+   max-height: 75vh;
+}
