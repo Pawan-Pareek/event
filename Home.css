@@ -1,75 +1,8 @@
 body{
-
-   background-color: rgb(0, 26, 57);
-   box-sizing: border-box;
-   margin: 0%;
-   padding: 0%;
-}
-
-.home-container{
-  /* background-size:cover; */
-  /* background-repeat: no-repeat; */
-  height: 90vh;
-  width: 100%;
-}
-.text {
-    color: rgb(255, 187, 187);
-    position: absolute;
-    top: 40%;
-    left: 19%;
-    font-size: 80px;
-    font-family: poppins; 
- }
- 
- .fire {
- 
-    display: block;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQia-q_tZYR5sZhI4X1JY0grLShO7jO3AQCOQ&usqp=CAU);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: fire 1.2s linear infinite;
-    -webkit-backface-visibility: hidden;
- }
- 
- @keyframes fire {
-    0% {
-       background-position: 0% -50%;
-    }
- 
-    0% {
-       background-position: 100% -50%;
-    }
- 
- }
- 
- .hello {
-    color: white;
-    display: flex;
-    margin-top: 2rem;
-    font-size: 18px;
-    padding-right: 59rem;
- }
- 
- .hello:hover {
-    color: aqua;
-    cursor: pointer;
- }
- 
- 
- .come {
-    font-size: 36px;
-    font-family: poppins;
-    color: white;
-    text-align: center;
-    top: 55%;
-    left: 10%;
-    position: absolute;
-=======
     background-color: rgb(0, 26, 57);
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
->>>>>>> 767cc12622de4862060abc93b52f7c2215cc23de
  }
 
  .home-container{
@@ -131,40 +64,3 @@ body{
      left: 10%;
      position: absolute;
   }
-.c{
-
-   color: red;
-   font-family: 'poppins';
-   margin-top: 3rem;
-   text-align: center;
-}
-
-.c:hover{
-
-   color:black;
-   cursor: pointer;
-}
-
-.pre{
-   margin-top: 20px;
-   text-align: center;
-   font-size: 20px;
-   font-weight: 900;
-   font-family: "poppins";
-   background-image: url('https://thumbs.dreamstime.com/b/silhouettes-concert-crowd-front-bright-stage-lights-confetti-colourful-background-high-lighted-places-people-holding-83284529.jpg');
-   background-size: cover;
-   color: transparent;
-   -webkit-background-clip: text;
-}
-
-.carousel-inner{
-   max-height: 75vh;  /* change this to whatever you want */
-   width: 100%;
-   }
-.carousel-item{
-      
-   max-height: 75vh;
-}
-.d-block w-100{
-   max-height: 75vh;
-}
