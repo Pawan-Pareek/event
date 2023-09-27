@@ -12,10 +12,10 @@ const Navbar = () => {
         <img className = "headlogo" src={logo} alt="" />
         </div>
         <h1 className='Event'>Event Alerto</h1>
-               <ul>
-                <li><Link to="./Home">Home</Link></li>
+               <ul className='list'>
+                <li><Link to="./">Home</Link></li>
                 <li><Link to="./About">About</Link></li>
-                <li><Link to="./Services">Services</Link></li>
+                <li><Link to="./signup">Sign Up</Link></li>
                 <li><Link to="Contact">Contact</Link></li>
             </ul>
     </header>
