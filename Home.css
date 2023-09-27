@@ -1,60 +1,130 @@
 body{
-   background-image: url('https://images.unsplash.com/photo-1609102026400-3c0ca378e4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGxpdmUlMjBjb25jZXJ0fGVufDB8fDB8fHww&w=1000&q=80');
-   background-size: cover;
-   background-repeat: no-repeat;
-}
-.text {
-    color: rgb(255, 187, 187);
-    position: absolute;
-    top: 30%;
-    left: 22%;
-    font-size: 80px;
-    font-family: poppins; 
- }
- 
- .fire {
- 
-    display: block;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQia-q_tZYR5sZhI4X1JY0grLShO7jO3AQCOQ&usqp=CAU);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: fire 1.2s linear infinite;
-    -webkit-backface-visibility: hidden;
- }
- 
- @keyframes fire {
-    0% {
-       background-position: 0% -50%;
-    }
- 
-    0% {
-       background-position: 100% -50%;
-    }
- 
- }
- 
- .hello {
-    color: white;
-    display: flex;
-    margin-top: 2rem;
-    font-size: 18px;
-    padding-right: 59rem;
- }
- 
- .hello:hover {
-    color: aqua;
-    cursor: pointer;
- }
- 
- 
- .come {
-    font-size: 26px;
-    font-family: poppins;
-    color: white;
-    text-align: center;
-    margin-top: 18%;
-    position: relative;
-    margin-left: 5%;
+    background-color: rgb(0, 26, 57);
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
  }
 
- 
+ .home-container{
+   /* background-size:cover; */
+   /* background-repeat: no-repeat; */
+   height: 90vh;
+   width: 100%;
+ }
+ .text {
+     color: rgb(255, 187, 187);
+     position: absolute;
+     top: 40%;
+     left: 19%;
+     font-size: 80px;
+     font-family: poppins; 
+  }
+  
+  .fire {
+  
+     display: block;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQia-q_tZYR5sZhI4X1JY0grLShO7jO3AQCOQ&usqp=CAU);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -webkit-animation: fire 1.2s linear infinite;
+     -webkit-backface-visibility: hidden;
+  }
+  
+  @keyframes fire {
+     0% {
+        background-position: 0% -50%;
+     }
+  
+     0% {
+        background-position: 100% -50%;
+     }
+  
+  }
+  
+  .hello {
+     color: white;
+     display: flex;
+     margin-top: 2rem;
+     font-size: 18px;
+     padding-right: 59rem;
+  }
+  
+  .hello:hover {
+     color: aqua;
+     cursor: pointer;
+  }
+  
+  
+  .come {
+     font-size: 36px;
+     font-family: poppins;
+     color: white;
+     text-align: center;
+     top: 60%;
+     /* left: 0%; */
+     position: absolute;
+  }
+
+  .pre{
+   margin-top: 50px;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 1000;
+   font-family: "poppins";
+   background-image: url('./pre.avif');
+   -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -webkit-animation: fire 1.2s linear infinite;
+     -webkit-backface-visibility: hidden;
+   background-size: cover;
+   color: transparent;
+   -webkit-background-clip: text;
+}
+
+hr{
+   /* color: white; */
+   border:3px solid white;
+   width: 70%; 
+   margin: 0 15% 0 15%;
+   
+   
+}
+
+.carousel-inner{
+   max-height: 75vh;  /* change this to whatever you want */
+   width: 100%;
+   }
+.carousel-item{
+      
+   max-height: 75vh;
+}
+.d-block w-100{
+   max-height: 75vh;
+}
+
+.btns{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.ibtn{
+   margin: 0px 30px 0px;
+   padding: 10px 15px 10px 15px;
+   background-color: transparent;
+   color: white;
+   border: 3px solid white;
+   border-radius: 15px;
+   font-size: 1.2rem;
+   font-weight: 600;
+   
+   /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+   /* border-color: white; */
+}
+
+.ibtn:hover{
+   background-color: white;
+   color: rgb(0, 26, 57);
+   border: 3px solid white;
+}
+
