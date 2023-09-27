@@ -1,0 +1,87 @@
+/* .main { */
+  /* font-family: cursive; */
+  /* position: absolute; */
+  /* margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 97vh;
+  color: white; */
+  /* background-image: url(login-bg.avif);
+    background-repeat:no-repeat;
+    background-size: cover; */
+/* } */
+
+.container {
+  color: white;
+  display: flex;
+  margin:auto;
+  margin-top: 15vh;
+  /* align-items: center; */
+  text-align: end;
+  justify-content: center;
+  border: 2px solid;
+  width: 550px;
+  height: fit-content;
+  font-family: cursive;
+}
+
+.login-container {
+  color: white;
+  display: flex;
+  margin:auto;
+  margin-top: 15vh;
+  /* align-items: center; */
+  text-align: end;
+  justify-content: center;
+  border: 2px solid;
+  width: 600px;
+  height: fit-content;
+  font-family: cursive;
+}
+
+.heading {
+  margin: 30px;
+  text-align: center;
+}
+
+.content {
+  margin: 15px;
+  font-size: large;
+  font-weight: 600;
+}
+
+.button-align {
+  text-align: center;
+  margin: 15px;
+}
+
+.btn {
+  padding: 5px;
+  color: aliceblue;
+  background-color: black;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+.input {
+  width: 250px;
+  font-family: cursive;
+  outline: none;
+  border: 2px solid #fafafa;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.lg {
+  text-decoration: none;
+  color: rgb(102, 228, 245);
+}
